@@ -1,6 +1,6 @@
 # BBI
 
-BBI is a R package for Benthic Biotic Indices calculation from composition data
+Set of functions to calculate Benthic Biotic Indices from composition data, obtained whether from morphotaxonomic inventories or sequencing data.
 
 It takes composition data with associated taxonomic assignments as input and output biotic indices values.
 It also return the ecological quality status for each pair of sample-BBI.
@@ -18,7 +18,14 @@ To be able to use the BBI package, the following is required:
 
 ## Installation
 
-The BBI package can be installed in R or RStudio using the devtools package, by typing these commands in R :
+The BBI package, in its lastest stable release, is available at:
+https://cran.r-project.org/web/packages/BBI/index.html
+It can be installed using the following command within R :
+```
+install.packages("BBI")
+```
+
+Alternatively, the developpement versino can be installed by typing these commands in R :
 
 ```
 install.packages("devtools")
@@ -95,8 +102,15 @@ Sample4 "0.496913603640647" "moderate"
 
 ```
 
+## Paper and citation
+
+Cordier T., Pawlowski J. BBI: an R package for the computation of Benthic Biotic Indices from composition data. Metabarcoding and Metagenomics 2: e25649, doi: 10.3897/mbmg.2.25649
 
 ## Version history
+
+### version 0.3.0 ###
+
+Updated the BBI reference table
 
 ### version 0.2.0 ###
 

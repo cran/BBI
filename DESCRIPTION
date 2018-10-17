@@ -1,7 +1,7 @@
 Package: BBI
 Type: Package
 Title: Benthic Biotic Indices Calculation from Composition Data
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: person("Tristan", "Cordier", email = "tristan.cordier@gmail.com",
     role = c("aut", "cre"))
 Author: Tristan Cordier [aut, cre]
@@ -17,6 +17,6 @@ Encoding: UTF-8
 BugReports: https://github.com/trtcrd/BBI/issues
 URL: https://github.com/trtcrd/BBI
 NeedsCompilation: no
-Packaged: 2018-05-18 16:05:19 UTC; tristan
+Packaged: 2018-10-17 13:02:12 UTC; tristan
 Repository: CRAN
-Date/Publication: 2018-05-18 16:19:31 UTC
+Date/Publication: 2018-10-17 13:40:02 UTC
